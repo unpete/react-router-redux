@@ -1,0 +1,43 @@
+{
+  "authors": [
+    "Tim Dorr"
+  ],
+  "bugs": {
+    "url": "https://github.com/ReactTraining/react-router/issues"
+  },
+  "dependencies": {
+    "history": "^4.9",
+    "prop-types": "^15.6",
+    "react-router": "^5.0"
+  },
+  "description": "Redux bindings for React Router",
+  "devDependencies": {
+    "pretty-bytes": "^4.0.2",
+    "react": "^16.8",
+    "react-dom": "^16.8",
+    "react-redux": "^5.1",
+    "redux": "^4.0"
+  },
+  "files": [
+    "ConnectedRouter.js",
+    "actions.js",
+    "es",
+    "index.js",
+    "selectors.js",
+    "middleware.js",
+    "reducer.js"
+  ],
+  "homepage": "https://github.com/ReactTraining/react-router#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "es/index.js",
+  "name": "react-router-redux",
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReactTraining/react-router.git"
+  },
+  "version": "5.0.0-alpha.9"
+}

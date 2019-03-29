@@ -1,0 +1,8 @@
+tmp
+.DS_Store
+.idea/
+
+# npm files
+node_modules
+package-lock.json
+*.log
