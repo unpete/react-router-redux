@@ -42,7 +42,7 @@ var ConnectedRouter = function (_Component) {
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
-  ConnectedRouter.prototype.componentWillMount = function componentWillMount() {
+  ConnectedRouter.prototype.componentDidMount = function componentDidMount() {
     var _props = this.props,
         propsStore = _props.store,
         history = _props.history,
